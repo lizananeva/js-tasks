@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal Window</title>
+  <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+  <div class="container">
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem magnam
+      ratione quasi alias adipisci molestias doloribus, provident eum natus
+      rerum, numquam delectus cum at nobis consectetur deserunt perspiciatis
+      eveniet temporibus.
+    </p>
+    <button class="button" id="openOverlay">Открыть</button>
+  </div>
+  <script type="html/template" id="overlayTemplate">
+    <div class="modal-container">
+      <a class="close" href="#">x</a>
+      <div class="content"></div>
+    </div>
+  </script>
+  <script src="modal.js"></script>
+</body>
+</html>
